@@ -3,18 +3,25 @@
 function devolverPrimerElemento(array) {
   // Devuelve el primer elemento de un  array (pasado por parametro)
   // Tu código:
+ var lista1 =["Carlos",1,2,3,4,5,6]
+ console.log(lista1[0]);
+
 }
 
 
 function devolverUltimoElemento(array) {
   // Devuelve el último elemento de un array
   // Tu código:
+  var lista2 =["Carlos",1,2,3,4,5,6]
+  console.log(lista2[lista2.length -1])
 }
 
 
 function obtenerLargoDelArray(array) {
   // Devuelve el largo de un array
   // Tu código:
+  var lista2 =["Carlos",1,2,3,4,5,6]
+  console.log(lista2.length)
 }
 
 
@@ -23,6 +30,10 @@ function incrementarPorUno(array) {
   // Aumenta cada entero por 1
   // y devuelve el array
   // Tu código:
+  var lista3=[1,2,3,4,5,6]
+  for (let i = 0; i  <lista3.length ; i ++){
+    console.log(lista3[i])
+  }
 }
 
 
@@ -30,6 +41,10 @@ function agregarItemAlFinalDelArray(array, elemento) {
   // Añade el "elemento" al final del array
   // y devuelve el array
   // Tu código:
+  var lista4=[1,2,3,4,5,6]
+  lista4.push("Carlos");
+  console.log(lista4);
+ 
 }
 
 
@@ -38,6 +53,9 @@ function agregarItemAlComienzoDelArray(array, elemento) {
   // y devuelve el array
   // Pista: usa el método `.unshift`
   // Tu código:
+  var lista5=[1,2,3,4,5,6]
+  lista5.unshift("Carla");
+  console.log(lista5);
 }
 
 
@@ -47,6 +65,10 @@ function dePalabrasAFrase(palabras) {
   // con espacios entre cada palabra
   // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'
   // Tu código:
+  var lista6=["Hola","Buen dia", "buen señor"]
+  lista6.length();
+  console.log(lista6.join());
+
 }
 
 
@@ -54,6 +76,28 @@ function arrayContiene(array, elemento) {
   // Comprueba si el elemento existe dentro de "array"
   // Devuelve "true" si está, o "false" si no está
   // Tu código:
+  var lista7=[1,2,3,4,5]
+
+
+   for (let i = 0; i  <lista7.length ; i ++)
+  console.log(lista7[2])
+  
+   //  if (lista7.length[3]);
+
+
+
+//  const encontrar = lista7.lengt(element = element>"buen señor");
+
+//  if (encontrar == true){
+//   console.log(true);
+//  } else (encontrar !== true);
+//  console.log(false);
+  
+  
+  // for (let i = 0; i  <lista7.length ; i ++)
+  //   console.log(lista7.join("buen señor"));
+
+  //  return lista7 === "buen señor" ? true : false  ;
 }
 
 
